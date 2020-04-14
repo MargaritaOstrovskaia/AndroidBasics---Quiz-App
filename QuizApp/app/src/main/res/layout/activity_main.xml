@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_layout"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/editTextName"
+        style="@style/MainActivityViews"
+        android:inputType="textPersonName"
+        android:hint="@string/name" />
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        style="@style/MainActivityViews"
+        android:inputType="textPersonName"
+        android:hint="@string/last_name" />
+
+    <EditText
+        android:id="@+id/editTextBirthday"
+        style="@style/MainActivityViews"
+        android:hint="@string/birthday_format"
+        android:ems="10"
+        android:inputType="date" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        style="@style/MainActivityViews"
+        android:text="@string/check_box_1" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        style="@style/MainActivityViews"
+        android:text="@string/check_box_2" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        style="@style/MainActivityViews"
+        android:text="@string/check_box_3" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        style="@style/MainActivityViews"
+        android:text="@string/check_box_4" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        style="@style/MainActivityViews"
+        android:text="@string/check_box_5" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        style="@style/MainActivityViews"
+        android:text="@string/check_box_6" />
+
+    <TextView
+        android:id="@+id/textViewAlert"
+        style="@style/MainActivityViews"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        style="@style/MainActivityViews"
+        android:background="@drawable/btn"
+        android:text="@string/btn_new_test"
+        android:onClick="onClickStart" />
+</LinearLayout>

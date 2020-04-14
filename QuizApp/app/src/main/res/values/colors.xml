@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="test">#66BB6A</color>
+
+    <color name="colorPrimary">#5D4F73</color>
+    <color name="colorPrimaryDark">#4E295B</color>
+    <color name="colorAccent">#5D4F73</color>
+
+    <color name="rightColor">#b36b8e23</color>
+    <color name="wrongColor">#b3971b10</color>
+    <color name="answerTextColor">#6B617A</color>
+    <color name="cardBackgroundColor1">#FFF0EB</color>
+    <color name="cardBackgroundColor2">#EBF6FF</color>
+    <color name="alertResult">#FF8573</color>
+</resources>

@@ -1,0 +1,1281 @@
+{
+	"title": "Motorcycle Test",
+	"topics": [{
+		"title": "Dangerous Surfaces",
+		"questions": [{
+			"question": "Compared to the driver of a vehicle with four wheels, which of the following would affect a motorcyclist more?",
+			"answers": ["Road conditions", "Rain & Wind", "All of above"],
+			"correctAnswer": 3,
+			"imageName": ""
+		}, {
+			"question": "How should you ride in windy conditions?",
+			"answers": ["Ride faster", "Ride slower", "Ride against the wind"],
+			"correctAnswer": 2,
+			"imageName": ""
+		}, {
+			"question": "On a wet road, it will usually be most slippery:",
+			"answers": ["In the left wheel track", "On loose gravel", "In the center portion of the lane"],
+			"correctAnswer": 3,
+			"imageName": ""
+		}, {
+			"question": "To predict how hazard may affect you, it’s important to:",
+			"answers": ["Watch for brake lights or turn signals", 
+				"Adjust speed to get around the hazard", 
+				"Know the speed, distance and direction that the hazard is moving"],
+			"correctAnswer": 3,
+			"imageName": ""
+		}, {
+			"question": "What happens when you have bad tractions?",
+			"answers": ["You can't see properly", "Your tires don’t grip the road properly", "You can’t speed up"],
+			"correctAnswer": 2,
+			"imageName": ""
+		}, {
+			"question": "What should you do if you must ride over an obstacle?",
+			"answers": ["Roll on the throttle before riding over the obstacle", "Accelerate before hitting the obstacle", "A & B"],
+			"correctAnswer": 1,
+			"imageName": ""
+		}, {
+			"question": "What should you do when riding on sand and gravel roads?",
+			"answers": ["Avoid sudden acceleration and deceleration", "Avoid sudden change in directions", "All of the above "],
+			"correctAnswer": 3,
+			"imageName": ""
+		}, {
+			"question": "What should you do when riding on wet or slippery roadways?",
+			"answers": ["Avoid sudden braking", "Avoid sudden acceleration", "A & B"],
+			"correctAnswer": 3,
+			"imageName": ""
+		}, {
+			"question": "What should you do when you are approaching roadways with deep sand or gravel?",
+			"answers": ["Slow down", "Change to a lower gear", "A & B"],
+			"correctAnswer": 3,
+			"imageName": ""
+		}, {
+			"question": "When riding on loose roadway surfaces?",
+			"answers": ["Reduce speed", "Reduce lean angle", "A & B"],
+			"correctAnswer": 3,
+			"imageName": ""
+		}, {
+			"question": "When riding where sand and gravel have collected on paved roads, you should:",
+			"answers": ["Avoid sudden changes in speed or direction", "Only use the rear brake to slow down", "Pull in the clutch"],
+			"correctAnswer": 1,
+			"imageName": ""
+		}, {
+			"question": "When should you ride with extra safety precautions?",
+			"answers": ["When riding in construction zones", "When riding in bumpy surfaces", "A & B"],
+			"correctAnswer": 3,
+			"imageName": ""
+		}, {
+			"question": "Where should you ride when it is raining?",
+			"answers": ["In the tire tracks", "In the center of the line", "You should not ride in the rain"],
+			"correctAnswer": 1,
+			"imageName": ""
+		}, {
+			"question": "Which of the follow decreases your traction?",
+			"answers": ["Wet leaves", "Storm drains", "A & B"],
+			"correctAnswer": 3,
+			"imageName": ""
+		}, {
+			"question": "Which of the following statements is true?",
+			"answers": ["Hold the handle grips tightly when riding over rough or bumpy", 
+				"Always wear sunglasses during the day", 
+				"Always use your high beam when riding at night"],
+			"correctAnswer": 1,
+			"imageName": ""
+		}, {
+			"question": "Which part of the road is most slippery?",
+			"answers": ["Center of the lane", "Left wheel track", "A & B"],
+			"correctAnswer": 1,
+			"imageName": ""
+		}]
+	}, {
+		"title": "Distance",
+		"questions": [{
+			"question": "During bad weather and traffic conditions, you should:",
+			"answers": ["Increase your following distance", "Decrease your following distance", "Not ride your motorcycle on highways"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "How should you react if someone tailgates you?",
+			"answers": ["Speed up", "Slow down", "Allow the tailgater to go in front of you"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Lane sharing:",
+			"answers": ["Is dangerous at all time", "Is dangerous during rush hours", "Is dangerous when riding on highways"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "To avoid causing a rear-end collision when following another vehicle",
+			"answers": ["Ride in the right wheel track", "Stay at least two seconds behind", "Tap your brakes lightly"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "What does overriding your headlight mean?",
+			"answers": ["When you are riding fast at night", 
+				"When you are riding faster than speed limit", 
+				"When you are riding at a speed where you are not able to stop within the distance you can see with your headlights"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "What is one of the major factors in accidents caused by motorcyclist?",
+			"answers": ["Lane sharing or splitting", "Speeding", "Following too closely"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "When you are being followed too closely, it is usually best to:",
+			"answers": ["Move closer to the vehicle ahead", "Drop back farther from the vehicle ahead", "Pass the vehicle ahead"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "Why should you leave plenty of space around you when riding?",
+			"answers": ["Give you time to react in case of emergency", "Other drivers could see you better", "A & B"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "You should ___ when following a car at night",
+			"answers": ["Decrease following distance", 
+				"Increase following distance", 
+				"Maintain the same following distance as during the day"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "You should avoid following too close to a large vehicle because:",
+			"answers": ["Turbulence", "Large vehicle are often slow", "All of the above"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "You should increase your braking distance by ___ when you double your speed",
+			"answers": ["10 inches", "4 times as much", "Twice as much"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "You should observe ___ ahead of you when riding",
+			"answers": ["5 seconds", "12 seconds", "25 seconds"],
+			"correctAnswer": 2,
+			"imageName": ""
+		}]
+	} , {
+		"title": "Headlights",
+		"questions": [{
+			"question": "To see better when following a vehicle at night:",
+			"answers": ["Increase your following distance and use your low beam", 
+				"Drop far back and use your high beam", 
+				"Use the headlights of the vehicle ahead"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "When should you turn your headlights on?",
+			"answers": ["All the time", "During the day", "At night"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "When should your use high beam?",
+			"answers": ["When there is no traffic behind you", 
+				"When there is no traffic in front of you", 
+				"When you are riding on highways"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "Why should you have your headlights on during the day?",
+			"answers": ["To make you more visible to other road users", 
+				"So that you will not forget to turn on your headlights at night", 
+				"To keep the battery running"],
+			"correctAnswer": 1,
+			"imageName": ""
+		}]
+	} , {
+		"title": "Helmet",
+		"questions": [{
+			"question": "Helmets prevent head injuries ___ of the time",
+			"answers": ["50%", "67%", "80%"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "Helmets should:",
+			"answers": ["Be bright-collared", "Not protect your head", "Allow you to see as far to the side as possible"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "How can you avoid head injury?",
+			"answers": ["Wear a helmet", "Wear sunglasses", "Wear a hat"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "How can you avoid injury in a collision?",
+			"answers": ["B & C", "Wear helmet", "Wear protective clothing"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "In California, all operators and passengers are required by law to wear a helmet that is:",
+			"answers": ["Compliant with the Department of Transportation safety standard", "Bright in color", "Reflective at night"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "In California, all operators and passengers are required by law to wear a helmet that is:",
+			"answers": ["Compliant with the Department of Transportation safety standard", "Bright in color", "A & B"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "Of the following, which one gives the most eye and face protection while riding?",
+			"answers": ["A windshield", "Googles", "A face shield"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Riding clothes should be:",
+			"answers": ["Bright", "Reflective", "A & B"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "The single most important thing you can do to improve your chances of surviving a collision is to:",
+			"answers": ["Wear a securely fastened helmet", "Be familiar with the motorcycle", "Ride in the center portion of the line"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "Wearing a helmet can reduce the chance of the fatal head injury in:",
+			"answers": ["Low speed crashes only", "High speed crashes only", "Any crushes, regardless of speed"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Wearing a helmet will:",
+			"answers": ["Increase your chances of a head injury", 
+				"Reduce your chances of a head injury", 
+				"Neither reduce or increase your chances of a head injury"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "What is a plastic shatter-resistant face shield used for:",
+			"answers": ["Protect your entire face", "Protect your nose", "Protect your cheeks"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "Which of the following describes a properly fitting helmet?",
+			"answers": ["The helmet fits tightly around the chine", "The helmet fits snugly", "The helmet is a name brand helmet"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "Which of the following describes effective eye or face protection?",
+			"answers": ["Free of scratches and securely fastened", "Shatterproof and well-ventilated", "All of the above"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Which of the following is good substitute for a face shield?",
+			"answers": ["Windshield", "Googles", "Sunglasses"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "Which of the following is the safest type of eye protection?",
+			"answers": ["Sunglasses", "Helmet", "Face shield"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Who is required to wear a helmet?",
+			"answers": ["The motorcyclist", "All passengers", "A & B"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Why should you wear bright-collared and reflective clothing and helmets?",
+			"answers": ["To make you more visible", "To protect you from the sun", "To protect you from bright headlights"],
+			"correctAnswer": 1,
+			"imageName": ""
+		}]
+	} , {
+		"title": "Impaired Driving",
+		"questions": [{
+			"question": "Alcohol enters the bloodstream and quick reaches the brain. Which of the following is affected first?",
+			"answers": ["Speech", "Balance", "Judgement"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Alcohol first affects your:",
+			"answers": ["Balance", "Vision", "Judgement"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Alcohol negatively affects:",
+			"answers": ["Your vision and judgement", "Your reaction time and coordination", "All of the above"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "If do you feel well, you should:",
+			"answers": ["Not ride", "Ride slower", "Ride faster"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "If you drink, you should:",
+			"answers": ["Wait an hour before riding", "Not ride", "Decrease your speed if you must ride"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "The ability to think clearly and ride safely is affected by as little as:",
+			"answers": ["6 drinks", "3 drinks", "1 drinks"],
+			"correctAnswer": 3,
+			"imageName": ""
+		}]
+	} , {
+		"title": "Lanes",
+		"questions": [{
+			"question": "Are you preparing to move to the left lane, as picture below. To spot vehicles passing beside you, it is best to:",
+			"answers": ["Turn your head to the left", "Look in the left mirror", "Slow and look in the left mirror"],
+			"correctAnswer": 1,
+			"imageName": "lanes_1.png"
+		} , {
+			"question": "In the picture below, the car driver is preparing to enter the intersection. To be seen and maintain a space cushion, you should:",
+			"answers": ["Slow down and move away from the vehicle after entering the intersection", 
+				"Slow down and move closer to the curb so the driver can see you better", 
+				"Speed up to get through the intersection quickly and then move left"],
+			"correctAnswer": 1,
+			"imageName": "lanes_2.png"
+		} , {
+			"question": "Before changing lanes, you should:",
+			"answers": ["Signal and check your mirrors", "Make a head check by turning your head", "All of the above"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "On paved two-lane road, sand and gravel are most likely to collect:",
+			"answers": ["Near the center of the road", "Near the sides of the road", "In the left wheel track"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "Riders in a staggered formation will be passing  car. After the lead rider passes, he/she should return to the ___ of the line",
+			"answers": ["Left portion", "Right portion", "Center portion"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "Riding in the center portion of the line:",
+			"answers": ["Should be avoided if possible", "Keep other drivers from seeing you", "Keep other from sharing your lane"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "To discourage other drivers from sharing your lane, it is usually best to ride:",
+			"answers": ["In the left portion of your lane", "In the center portion of your lane", "Next to another vehicle"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "What is lane splitting?",
+			"answers": ["All of the below", "It is illegal", "It happens when you are riding in between 2 lane"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "What is the dominant lane position on a multilane road?",
+			"answers": ["Right lane position while riding in the left lane", 
+				"Left lane position while riding in the left lane", 
+				"Center lane position while riding in the left lane"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "What part of the lane should you ride in when following a vehicle with four wheels?",
+			"answers": ["In the left side of the lane and directly behind the vehicle", 
+				"In the center of the lane and directly behind the vehicle", 
+				"In the right side of the lane and directly behind the vehicle"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "What should you do before changing to the left lane?",
+			"answers": ["Check the left mirror", "Turn your head left", "A & B"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "What should you do if you plan to pass a vehicle?",
+			"answers": ["B & C", "Pass to the left", "Signal"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "What should you do when a driver of a vehicle is passing you?",
+			"answers": ["Move to the right lane position", "Move to the left lane position", "Move to the center lane position"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "When approaching two lanes of vehicle stopped at an intersection, you should:",
+			"answers": ["Stop between the two lanes of vehicle", 
+				"Stop behind the last vehicle in either lane", 
+				"Stop behind the last vehicle in the left lane"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "When riding in a group, what should the leader do after he or she passes a car?",
+			"answers": ["Move to the right lane position", "Move to the center lane position", "Move to the left lane position"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "When you position your motorcycle correctly to turn and finish the turn in the correct lane, you are:",
+			"answers": ["Lane tracking", "Lane splitting", "Lane changing"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "Where is the best lane position when riding on a motorcycle?",
+			"answers": ["Depends on road and traffic conditions", "In the right part of the lane", "In the center of the lane"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "Which lane should you turn into when you are turning left from a 2-way road onto a 1-way road?",
+			"answers": ["Middle lane", "Farthest left lane", "The lane that is closest to you"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Which of the following is an advantage of a motorcyclist when passing parked vehicle?",
+			"answers": ["Motorcyclist can avoid problems of people opening doors and stepping out of their vehicle by driving in the left part of the lane", 
+				"Motorcyclist can avoid problems of people opening doors and stepping out of their vehicle by driving in the right part of the lane", 
+				"Motorcyclist can avoid problems of people opening doors and stepping out of their vehicle by driving in the center part of the lane"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "Which of the following is the best way to avoid other motorists from sharing your lane?",
+			"answers": ["Ride in the center of the lane", "Ride in the left side of the lane", "Ride in the right side of the lane"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "You plan to make a right turn after stopping at an intersection, usually it is best to turn from which portion of the lane?",
+			"answers": ["The left portion", "The center portion", "The right portion"],
+			"correctAnswer": 2,
+			"imageName": ""
+		}]
+	} , {
+		"title": "Maintenance",
+		"questions": [{
+			"question": "How could you tell if your motorcycle fits you?",
+			"answers": ["The motorcycle is colorful", 
+				"You feet touch the ground while you straddle the seat", 
+				"You can lift the motorcycle without aid"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "How do you tell if your front tire goes flat?",
+			"answers": ["The front brake won’t work", "The steering  feels heavy", "The steering feels light"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "Which of the following affect your braking distance?",
+			"answers": ["Weight of your motorcycle and quality of your brakes", 
+				"Tire traction and road conditions", 
+				"All of the above"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Which of the following causes the engine to lock or freeze?",
+			"answers": ["Loss of engine power", "Low oil", "A & B"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Which of the following causes wobble?",
+			"answers": ["Load imbalance", "Under or over inflated tire", "All of the above"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Which of the following should you check before every ride?",
+			"answers": ["All of the above", "Air pressure, general wear, and tread of tires", "Oil and fluid levels"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "You should check your motorcycle’s cables for broken strands:",
+			"answers": ["Once a week", "Once a month", "Before each ride"],
+			"correctAnswer": 3,
+			"imageName": ""
+		}]
+	} , {
+		"title": "Motorcycle Control",
+		"questions": [{
+			"question": "The ride over metal bridge gratings as pictured below:",
+			"answers": ["Ride straight across", "Cross at a sharp angle without changing lanes", "Weave (zig-zag) across"],
+			"correctAnswer": 1,
+			"imageName": "control_1.png"
+		} , {
+			"question": "At low speed, you should turn by:",
+			"answers": ["Pushing to the left to turn left", "A & C", "Pushing to the right to turn right"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "Counter steering is:",
+			"answers": ["When you push gently on the right handlebar when turning right", 
+				"When you push gently on the right handlebar when turning left", 
+				"When you push gently on the left handlebar when turning right"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "For higher-speed turns, you should:",
+			"answers": ["Lean more than you would at low speed", 
+				"Lean less than you would at low speed", 
+				"Lean the same amount you would at low speed"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "Highway pegs:",
+			"answers": ["Can decrease the time it takes to reach the foot brake in an emergency", 
+				"Can increase the time it takes to reach the foot brake in an emergency", 
+				"Are necessary if you are going to ride on highway"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "How do you accelerate or brake safely?",
+			"answers": ["The motorcycle should be leaning to the left", 
+				"The motorcycle should be leaning to the right", 
+				"The motorcycle should be as vertical as possible"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "How do you make a quick turn?",
+			"answers": ["Get the motorcycle to lean quickly", "Shift your weight to the right", "Shift your weight to the left"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "How do you swerve correctly?",
+			"answers": ["Brake suddenly", 
+				"Press the handgrip in the direction of the turn", 
+				"Press the handgrip in the opposite direction of the turn"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "How do you turn safely when riding on a motorcycle?",
+			"answers": ["Lean the motorcycle in the direction of the turn", 
+				"Lean the motorcycle in the opposite direction of the turn", 
+				"Speed up before the turn"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "How much of the potential stopping power does the front brake supply?",
+			"answers": ["About ¼", "About ½", "About ¾"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "How should you brake to stop a motorcycle?",
+			"answers": ["Apply the rear brake only", "Apply the front brake only", "Apply the front and rear brakes together"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "If you experience a wobble, you should:",
+			"answers": ["B & C", "Shift your weight forward", "Pull over when if is safe to do so"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "If you have a flat tire while riding, hold the handle grips firmly and:",
+			"answers": ["Use the brake of the good tire or avoid braking", "Gently apply both brakes", "Use only the brake that controls the flat tire"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "If you have to ride over the obstacle, you should:",
+			"answers": ["All of the below", "Make sure the motorcycle is straight", "Rise slightly off the seat with your weight on the foot pegs"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "If you lock the front tire when stopping:",
+			"answers": ["Release the rear brake", "Keep the front brake locked until stopped", "Release and reapply the front brake"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "If you must make a quick stop, you should:",
+			"answers": ["Apply rear brake only", "Apply both brakes firmly and steadily", "Apply front brake firmly"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "If you must stop quickly while turning and you are unable to straighten the motorcycle first, apply the:",
+			"answers": ["Front brake and increase your lean angle", "Brakes harder as the lean is reduced", "Brakes first and then lean away from the turn"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "If your throttle sticks:",
+			"answers": ["Squeeze the clutch and use the engine cutoff switch", "Shift to neutral and apply both brakes", "Downshift and apply both brakes"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "In a normal turn, lean your:",
+			"answers": ["Body more than your motorcycle", "Motorcycle more than your body", "Motorcycle and your body at the same angle"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "In slow, tight turns, you should:",
+			"answers": ["Lean against the direction of the motorcycle", "Lean together with the motorcycle", "Lean forward"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "In slow, tight turns:",
+			"answers": ["Lean the motorcycle only and keep your body straight", "Lean your body more than the motorcycle", "Do not lean"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "To avoid your foot peg from dragging on the road as you corner, you should:",
+			"answers": ["Slow down before the curve", "Speed up before the curve", "Slow down during the curve"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "To make a normal stop, use:",
+			"answers": ["The rear brake only", "The rear brake first", "Both brakes and downshift"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "To operate the throttle:",
+			"answers": ["Start with your wrist flat", "Sit forward with arms straight", "Twist it forward and down for more power"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "To reduce speed before turning:",
+			"answers": ["Close the throttle and apply both brakes", "Pull n the clutch and use both brakes", "Apply the rear brake only"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "To ride over an object on the road:",
+			"answers": ["Stay seated until you have crossed the object", "Rise slightly off the seat", "Edge across the object"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "What should you do if a tire goes flat while riding?",
+			"answers": ["Brake on the good tire", "A & C", "Steer to the side of the road"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "What should you do if the chain breaks?",
+			"answers": ["Close the throttle", "Brake", "A & B"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "What should you do if your motorcycle starts to wander back and forth while riding over metal bridge gratings?",
+			"answers": ["Relax", "Concentrate and stay on course", "All of the above"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "What should you do if your motorcycle starts to wobble?",
+			"answers": ["Grip the handlebars firmly", "Close to throttle gradually", "A & B"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "What should you do when stopping?",
+			"answers": ["Downshift to the first gear", "Up shift", "Lean forward"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "When is the best time to use your brakes?",
+			"answers": ["When you are riding on a straight road", "When you are turning", "When you are going uphill"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "When should you change gears?",
+			"answers": ["Before exiting a curve", "Before entering a curve", "After exiting a curve"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "When should you operate the engine cut-off switch and pull in the clutch?",
+			"answers": ["When the throttle is stuck", "When you are riding on wet or slippery surfaces", "When you are riding on curve"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "When should you upshift or downshift?",
+			"answers": ["When it could be done smoothly in a curve", "When it could be done safely before the curve", "When it could be done smoothly after a curve"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "When swerving, it is important to:",
+			"answers": ["Always break before swerving", "Swerve in the direction the hazard is traveling", "Separate braking from swerving"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "When the front tire goes flat while riding:",
+			"answers": ["Apply the rear brake and steer to the edge of the road", 
+				"Steer to the right and apply both brakes", 
+				"You will not be able to control the motorcycle"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "When the front tire goes flat:",
+			"answers": ["The steering will feel heavy", "The back of the motorcycle will jerk from side to side", "You will lose power to the brakes"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "When you ride over a pothole, it is usually best to:",
+			"answers": ["Keep a normal seat position", "Lean forward as much as possible", "Look straight ahead and rise slightly off the seat"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Which of the following affect braking?",
+			"answers": ["Inertia", "Gravity", "A & B"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Which of the following is the most important thing to do when starting a motorcycle?",
+			"answers": ["Shift to a lower gear", "Shift a higher gear", "Put gear into neutral"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Which of the following would cause the brakes to lock:",
+			"answers": ["Grabbing the front brake", "Jamming down the rear break", "A & B"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Which of the following statements is correct?",
+			"answers": ["Press left, lean right, and go right", "Press left, lean left, and go right", "Press left, lean left, and go left"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "While in a turn, it is best to:",
+			"answers": ["Maintain a steady speed or gradually accelerate", "Slow down", "Accelerate and look straight ahead"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "While riding an unfamiliar motorcycle:",
+			"answers": ["Stay in the right portion of the lane", "Allow extra room for stopping", "Do not shift above the third gear"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "Your motorcycle has two brakes. Use both brakes:",
+			"answers": ["Only for normal stops", "Only for emergency stops", "Every time you slow or stop"],
+			"correctAnswer": 3,
+			"imageName": ""
+		}]
+	} , {
+		"title": "Passengers / Cargo",
+		"questions": [{
+			"question": "How should passengers on motorcycle sit:",
+			"answers": ["Sit as far forward as possible without affecting your driving", 
+				"Sit as far back as possible", 
+				"Sit with their feet on the ground when the motorcycle is stopped"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "What should passengers not do?",
+			"answers": ["Wear a helmet", "Hold onto you", "Talk to you"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "When adjusting your mirrors to carry a passenger should:",
+			"answers": ["Sit on the seat with you", "Stand behind the motorcycle", "Adjust the mirror while you sit on the motorcycle"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "When carrying a load, you should:",
+			"answers": ["Distribute the weight of the load evenly", "Drive faster", "Adjust the tire pressure before riding"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "When carrying a passenger:",
+			"answers": ["Your motorcycle will react the same", "It takes longer to brake and accelerate", "Let some air out of the tires for better traction"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "When carrying load:",
+			"answers": ["Fasten the load against the frame on the back of the seat", 
+				"Keep the load low and as far forward as possible", 
+				"Keep the load behind the rear axle"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "When riding with a passenger, you should:",
+			"answers": ["Start slowing sooner", "Use only your front brake to slow", "Start in the center portion of the lane"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "When you carry a passenger:",
+			"answers": ["It will take longer to accelerate and brake", "You will have more balance", "You will have less chance of skidding"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "Where should passengers be holding onto when riding on a motorcycle?",
+			"answers": ["Rider’s waist", "Rider’s shoulder", "A & B"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "Where should the passenger be when you are adjusting your mirrors?",
+			"answers": ["Behind the motorcycle", "Sitting on the seat with you", "Beside the motorcycle"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "Where should you place your load on a motorcycle?",
+			"answers": ["Over the rear axle", "In front of the rear axle", "A & B"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "You may need to ___ when carrying a passenger",
+			"answers": ["Talk", "Adjust the tire pressure", "Adjust the suspension"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Your passenger should:",
+			"answers": ["Wrap his or her arm around your neck as you turn", 
+				"Lean against the direction of the motorcycle to maintain balance", 
+				"Lean together with you"],
+			"correctAnswer": 3,
+			"imageName": ""
+		}]
+	} , {
+		"title": "Regulation",
+		"questions": [{
+			"question": "According to the California Vehicle codes, you must report the collision to DMV within 10 days if:",
+			"answers": ["There is any injury involved", "If the collision causes more than $750 in property damage to one person", "All above"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "According to the law, what must a motorcycle have?",
+			"answers": ["Two mirrors", "Horn and Signal lights", "All of the above"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "As a M1 rider in California, you may operate:",
+			"answers": ["Any two-wheel motorcycle", "Motor-driven Cycle and motorized scooter", "All of the above"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "As a M2 rider in California, you may operate:",
+			"answers": ["Any motorized bicycle", "Moped", "All of the above"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "In US, what is the legal limit of a driver’s BAC (blood alcohol content)?",
+			"answers": ["0.02", "0.05", "0.08"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Lane  splitting is:",
+			"answers": ["Illegal", "Legal when done in a safe and prudent manner", "Dangerous"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "Motorcycles are allowed to use the HOV lanes:",
+			"answers": ["Only when you are carrying a passenger", "Only when you are carrying a load", "All the time because they are high occupancy vehicles"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Which of the following is true?",
+			"answers": ["It is illegal to park within 6 meters of a stop sign", 
+				"It is illegal to park in the yellow triangle at the end of a line of parked cars", 
+				"A & B"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "You are being pursued by a police vehicle with its lights and siren activated.You have deliberately ignored the officer’s warning to stop and have sped away. During the pursuit a person is killed. You are subject to:",
+			"answers": ["A fine of not less than $10000", 
+				"Imprisonment in a state prison for six years", 
+				"Being jailed in the county jail for not more than one year"],
+			"correctAnswer": 2,
+			"imageName": ""
+		}]
+	} , {
+		"title": "Safe Driving",
+		"questions": [{
+			"question": "To create more space in the situation picture below, you should:",
+			"answers": ["Pass the car on your left", 
+				"Ride in the right portion of the lane", 
+				"Adjust your speed and stay in the center of the lane"],
+			"correctAnswer": 3,
+			"imageName": "safe_1.png"
+		} , {
+			"question": "In the picture below, the car is waiting to enter the intersection. Usually, it is best for you to:",
+			"answers": ["Slow and maintain the center lane position", 
+				"Slow and increase space", 
+				"Speed up and move left to get through the intersection quickly"],
+			"correctAnswer": 2,
+			"imageName": "safe_2.png"
+		} , {
+			"question": "In the picture below, riders A, B and C are riding as a group. To pass, ride B should:",
+			"answers": ["Complete the pass in front of rider A", 
+				"Return to the lane and ride next to rider A", 
+				"Return to the right portion of the lane behind rider A"],
+			"correctAnswer": 3,
+			"imageName": "safe_3.png"
+		} , {
+			"question": "In this picture, you are passing parked cars. The greatest danger to you is:",
+			"answers": ["A car door opening", 
+				"A car pulling out", 
+				"A person stepping from between parked cars"],
+			"correctAnswer": 2,
+			"imageName": "safe_4.png"
+		} , {
+			"question": "The driver turning left in the picture below is not stopping. Your best chance to avoid a collision would be to:",
+			"answers": ["Maintain your position and brake hard", 
+				"Slow and swerve to the left", 
+				"Reduce your speed and move away from the vehicle"],
+			"correctAnswer": 3,
+			"imageName": "safe_5.png"
+		} , {
+			"question": "Before changing lanes to the left, as pictured below, you should:",
+			"answers": ["Check your left mirror and turn your head to the left", 
+				"Check the right mirror and turn your head to the left", 
+				"Use your horn and speed up"],
+			"correctAnswer": 1,
+			"imageName": "safe_6.png"
+		} , {
+			"question": "In the picture below, it is usually best to ride in which position?",
+			"answers": ["Position 1", "Position 2 or 3", "Position 3"],
+			"correctAnswer": 2,
+			"imageName": "safe_7.png"
+		} , {
+			"question": "In this picture, the rider in the most dangerous position is:",
+			"answers": ["Rider A", "Rider B", "Rider C"],
+			"correctAnswer": 2,
+			"imageName": "safe_8.png"
+		} , {
+			"question": "A group of riders move from a staggered formation into a single file when:",
+			"answers": ["Traffic is heavy", "Turning corners", "Riding at night"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "As an inexperienced rider, where should you ride when riding in a group?",
+			"answers": ["In front of all other riders", "Directly behind the leader", "Beside the leader"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "At intersections, the most common cause of motorcycle / vehicle collision is:",
+			"answers": ["Drivers entering a rider’s right of way", 
+				"Riders not yielding to oncoming traffic", 
+				"Drivers tailgating riders"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "Before changing lanes to the left:",
+			"answers": ["Check your left mirror and look to the left", 
+				"Check the right mirror and turn your head to the left", 
+				"Use your horn and speed up"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "Convex mirrors:",
+			"answers": ["Make objects look closer than they really are", 
+				"Make objects look farther away than they really are", 
+				"Are illegal"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "Eye protection should:",
+			"answers": ["Be worn when riding in bad weather", "Be tinted with dark colors", "Give you a clear view too either side"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Fitness as a rider includes:",
+			"answers": ["Your ability to stay alert", "Your ability to ride under pressure", "All of the above"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Following closely to a vehicle in front of you:",
+			"answers": ["Protects you in heavy traffic", 
+				"Helps you see hazards in the road", 
+				"Is a factor in collisions caused by motorcyclists"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "How do you make yourself more visible when riding on a motorcycle?",
+			"answers": ["Turn your headlights on", "Wear bright color or reflective clothing", "All of the above"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "How many times more likely is a motorcyclist to die in an accident than other road users?",
+			"answers": ["4", "8", "16"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "In an emergency, if you must ride off the roadway, you should:",
+			"answers": ["Slow down", "Steer before leaving the paved roadway", "All of the above"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Make a special point to use your mirrors when:",
+			"answers": ["Riding through an intersection", "Following a vehicle", "Slowing or stopping"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Most collisions involve riders who:",
+			"answers": ["Overbrake the rear tire", "Underbrake the rear tire", "Were experienced riders"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "Most motorcycle accidents occur at speed below:",
+			"answers": ["10 mph", "20 mph", "30 mph"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Search-Evaluate-Execute (SEE) is:",
+			"answers": ["Scan for hazards, consider possible solutions, react appropriately", 
+				"Scan for other riders, consider formations, move into the safest formation", 
+				"Scan for motor vehicles, consider lane position, change lane"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "Space conflicts occur when:",
+			"answers": ["A pedestrian crosses the road in front of you", 
+				"Another road user moves up beside you when you are about to turn right", 
+				"A & B"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Space conflicts:",
+			"answers": ["Happen when two road users are turning at the same time", 
+				"Happen when you are speeding", 
+				"Happen when two road users try to move into the same space at the same time"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Stopping distance includes:",
+			"answers": ["Perception distance", "Reaction distance", "All of the above"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "To cross tracks that run parallel to your course:",
+			"answers": ["Edge gradually across", 
+				"Move away, then turn and cross at an angle at an least 45 degrees", 
+				"Move into the opposite lane to cross at a 90 degree angle"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "To make good judgements in traffic, you need to first:",
+			"answers": ["Be able to swerve", "Known how to stop quickly", "Search ahead"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Vehicle / motorcycle collisions are most common:",
+			"answers": ["At intersections", "On freeways", "At night"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "What is a safe practice for motorcyclist?",
+			"answers": ["Avoid riding during rush hours", "Avoid riding with a passenger", "Be alert and look well ahead"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "What is one of the primary causes of single vehicle motorcycle accidents?",
+			"answers": ["Colliding with the roadway or an object when running wide in a curve or turn", "Speeding", "A & B"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "What is the most common cause of accidents involving motorcycles when the motorcyclist is not at fault?",
+			"answers": ["Motorcycle rides often violate traffic laws", 
+				"Drivers of four-wheels vehicles have difficulty in seeing motorcycles when driving", 
+				"A & B"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "What is the most common place for accidents to occur?",
+			"answers": ["At an intersection", "On the highway", "On a slope"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "What is the most important factor to consider when purchasing a motorcycle?",
+			"answers": ["Your riding goals", "Your skill level", "All of the above"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "What position or formation should you ride in when you are riding together with other motorcycles?",
+			"answers": ["Side by side", "Single file", "Staggered formation"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "What should you always do when riding a motorcycle?",
+			"answers": ["Assess road conditions ahead", 
+				"Drive at a higher speed than other motorists", 
+				"Wear bright color clothing to alert other drivers"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "What should you do before pulling out from a parked position?",
+			"answers": ["Flash your braking lights", "Give hand signal", "Look over your shoulder"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "What should you do when a vehicle pulls out in front of you at a junctions?",
+			"answers": ["Slow down", "Be prepared to stop", "A & B"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "What should you do when approaching a high-risk intersection:",
+			"answers": ["Change into the right lane", 
+				"Accelerate to go through the intersection as fast as possible", 
+				"Cover brakes and clutch for better reaction time"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "What should you do when borrowing someone else’s motorcycles?",
+			"answers": ["Check out where the signals and switches are", "Know the gear pattern", "All of the above"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "What should you do when riding at night?",
+			"answers": ["Reduce speed", "Drive at normal speed", "Increase speed"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "What should you pay attention to and predict while riding?",
+			"answers": ["Signals", "Road markings", "All of the above"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "When crossing railroad tracks, it is better to cross them at a ___ degree angle",
+			"answers": ["45", "90", "180"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "When do most motorcycle accident occur:",
+			"answers": ["On rainy days", "At night", "During the day"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "When following a vehicle, you should try to:",
+			"answers": ["Ride in the right portion of the lane", 
+				"Rider where the driver can see you in the rear view mirror", 
+				"Ride in the left portion of the lane"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "When riding at night. You should:",
+			"answers": ["Follow the speed limit", "Wear reflective clothing", "All of the above"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "When riding in a group, when should you move from a staggered formation into a single file?",
+			"answers": ["When you are turning corners", "When you are riding on wet or slippery surfaces", "When you are riding on highway"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "When riding with group of motorcyclists, when is a staggered formation not recommended?",
+			"answers": ["When you are entering a highway", "When you are exiting a highway", "A & B"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "When should you check your mirrors?",
+			"answers": ["When you are about to change lanes", "A & C", "When you are stopped at an intersection"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "When should you wear reflective clothing?",
+			"answers": ["Only during the day", "Only during the night", "All the time"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "When traveling in a group, you should:",
+			"answers": ["All of the below", "Plan ahead", "Known the route"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "When turning, you should:",
+			"answers": ["Accelerate gently as you are coming out of the turn", "Stop before the turn", "Stop after the turn"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "When you ride at night:",
+			"answers": ["Wear reflective clothing", 
+				"Always ride in the center portion of the lane", 
+				"Follow the vehicle ahead more closely for safety"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "When you turn, you should:",
+			"answers": ["Look through the turn", "Watch the center line", "Look straight ahead"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "When you turn:",
+			"answers": ["Keep your head and eyes straight to maintain balance", 
+				"Look through the turn to where you want to go", 
+				"Always lean at the same angle as the motorcycle"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "When you ride at night:",
+			"answers": ["Wear reflective clothing", 
+				"Always ride in the center portion of the lane", 
+				"Follow the vehicle ahead more closely for safety"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "Where should you ride when following a car?",
+			"answers": ["Where the driver can see you in his / her rear-view mirror", 
+				"Where the driver can see you in his / her side view mirror", 
+				"Where the driver can see you by turning his / her head"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "Which of the following could reduce your reaction time?",
+			"answers": ["Always ride with your headlights on", 
+				"Always ride at a lower gear", 
+				"Cover the clutch and the brakes"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Which of the following is good riding position?",
+			"answers": ["Keep you knees against the gas tank", 
+				"Sit straight up with your toes pointing upward", 
+				"Keep your elbows locked"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "Which of the following is one of the greatest dangers to motorcyclists?",
+			"answers": ["Flat tire", "An oncoming car turning left in front of you", "An oncoming car turning right in front of you"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "Which of the following is potentially dangerous for motorcyclists?",
+			"answers": ["Pedestrians", "Animals", "All of the above"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "Why do motorists often misjudge the approach speed of motorcycles?",
+			"answers": ["Motorcycles are hard to see", "Motorcyclists tend to speed", "Motorcyclists do not follow traffic rules"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "With a properly adjusted mirror, you can see:",
+			"answers": ["The lane beside you", "Everything behind and to the side of you", "Part of the lane beside you and behind you"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "You should park your motorcycle at ___ degree angle when parking at the curb",
+			"answers": ["60", "90", "180"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "You should scan every:",
+			"answers": ["1-2 seconds", "5-8 seconds", "10-13 seconds"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "Your eyes should ___ when turning your motorcycle",
+			"answers": ["Be closed", "Be kept level with the horizon", "Not blink"],
+			"correctAnswer": 2,
+			"imageName": ""
+		}]
+	} , {
+		"title": "Signal",
+		"questions": [{
+			"question": "In the picture below, the car driver is signaling for a left turn. You should:",
+			"answers": ["Hold your speed and center lane position", 
+				"Slow down and move away from the approaching vehicle", 
+				"Increase your speed and stay in the center of the road"],
+			"correctAnswer": 2,
+			"imageName": "signal_1.png"
+		} , {
+			"question": "In this picture, the light most likely to make your motorcycle more noticeable to the car driver is the:",
+			"answers": ["Brake light", "Taillight", "Turn signal"],
+			"correctAnswer": 3,
+			"imageName": "signal_2.png"
+		} , {
+			"question": "After a turn, you should:",
+			"answers": ["Use your horn", "Turn your signal off", "Stop before speeding up"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "Not turning off a turn signal:",
+			"answers": ["Encourages other drivers to pull into your path", 
+				"Keeps other drivers from seeing your brake light", 
+				"Reduces your chances of a collision because other drivers stay clear"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "What is the correct hand signal if you want to stop?",
+			"answers": ["Left hand and arm pointing upward", "Left hand and arm pointing downward", "Right hand and arm pointing upward"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "What should you do if you wish to pull off the road?",
+			"answers": ["Signal", "Flash your headlights", "All of the above"],
+			"correctAnswer": 3,
+			"imageName": ""
+		} , {
+			"question": "When should you flash your brake light?",
+			"answers": ["When you will be braking suddenly", "When you are being tailgated", "When you are approaching a red light"],
+			"correctAnswer": 1,
+			"imageName": ""
+		} , {
+			"question": "When should you use your turn signals?",
+			"answers": ["At night only", "Every time you change lanes", "When you are riding on highway"],
+			"correctAnswer": 2,
+			"imageName": ""
+		} , {
+			"question": "Which arm and hand should you use for hand signals when riding a motorcycle?",
+			"answers": ["Left", "Right", "Your dominant arm and hand"],
+			"correctAnswer": 1,
+			"imageName": ""
+		}]
+	}]
+}
