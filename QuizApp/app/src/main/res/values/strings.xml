@@ -1,44 +1,55 @@
 <resources>
     <string name="app_name">Motorcycle Test</string>
-    <string name="iv_description">motorcycle</string>
-    <string name="q">Q %1$d: %2$s</string>
-    <string name="a">A: %1$s</string>
-    <string name="b">B: %1$s</string>
-    <string name="c">C: %1$s</string>
 
-    <string name="btn_new_test">start test</string>
-    <string name="btn_check">check answers</string>
-
-    <string name="question_check">Submit final answers?</string>
-    <string name="question_start">Start a test?</string>
-    <string name="submit">Submit</string>
-    <string name="cancel">Cancel</string>
-    <string name="yes">yes</string>
-
-    <string name="alert">Please answer all of the following questions.</string>
-    <string name="ok">OK</string>
-
-    <string name="name">Name</string>
-    <string name="last_name">Last name</string>
-    <string name="birthday">Birthday</string>
-    <string name="birthday_format">mm/dd/yyyy</string>
-
-    <string name="invalid_name">Invalid name</string>
-    <string name="invalid_last_name">Invalid last name</string>
-    <string name="invalid_birthday">Invalid birthday</string>
-
+    <!-- For MainActivity views -->
+    <string name="name_hint">Name</string>
+    <string name="last_name_hint">Last name</string>
+    <string name="birthday_hint">mm/dd/yyyy</string>
     <string name="check_box_1">Complete a Driver License or Identification Card Application.</string>
     <string name="check_box_2">Complete a DL 44 form.</string>
     <string name="check_box_3">Pass a vision examination.</string>
     <string name="check_box_4">Give a thumb print.</string>
     <string name="check_box_5">Have your picture taken.</string>
     <string name="check_box_6">Pay the application fee.</string>
+    <string name="btn_new_test">Start test</string>
 
-    <string name="alert_date">Date:</string>
-    <string name="alert_answered_correctly">Answered Correctly: %1$d</string>
-    <string name="alert_answered_incorrectly">Answered Incorrectly: %1$d</string>
-    <string name="alert_fail">Fail</string>
-    <string name="alert_pass">Pass</string>
-    <string name="format">MM/dd/yyyy</string>
-    <string name="main_alert">Please, make sure to fill out all required fields.</string>
+    <!-- For MainActivity dialog -->
+    <string name="question_start">Start a test?</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+
+    <!-- For MainActivity verification -->
+    <string name="date_format">MM/dd/yyyy</string>
+    <string name="name_matches">^[a-zA-Z]*$</string>
+    <string name="invalid_name">Invalid name</string>
+    <string name="invalid_last_name">Invalid last name</string>
+    <string name="invalid_birthday">Invalid birthday</string>
+
+    <!-- For QuizActivity -->
+    <string name="intent_name">NAME</string>
+    <string name="intent_last_name">LASTNAME</string>
+    <string name="intent_birthday">BIRTHDAY</string>
+    <string name="file">source_file.json</string>
+    <string name="standard_charsets">UTF-8</string>
+
+    <!-- For QuizActivity dialog -->
+    <string name="question_check">Submit final answers?</string>
+    <string name="submit">Submit</string>
+    <string name="alert">Please answer all of the following questions.</string>
+    <string name="ok">OK</string>
+
+    <!-- For CardView -->
+    <string name="q">Q %1$d: %2$s</string>
+    <string name="a">A: %1$s</string>
+    <string name="b">B: %1$s</string>
+    <string name="c">C: %1$s</string>
+
+    <!-- For Toast -->
+    <string name="iv_description">motorcycle</string>
+    <string name="toast_date">Date: %1$s</string>
+    <string name="toast_answered_correctly">Answered Correctly: %1$d</string>
+    <string name="toast_answered_incorrectly">Answered Incorrectly: %1$d</string>
+    <string name="toast_fail">Fail</string>
+    <string name="toast_pass">Pass</string>
+    <string name="toast_date_format">dd/MM/yyyy hh:mm</string>
 </resources>

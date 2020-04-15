@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="padding_layout">30dp</dimen>
-    <dimen name="padding_items">10dp</dimen>
+    <!-- For MainActivity -->
+    <dimen name="main_padding_layout">25dp</dimen>
+    <dimen name="main_padding_items">10dp</dimen>
 
+    <!-- For QuizActivity -->
+    <dimen name="fb_margin">10dp</dimen>
+    <dimen name="fb_elevation">6dp</dimen>
+
+    <!-- For CardView -->
+    <dimen name="card_margin_vertical">16dp</dimen>
+    <dimen name="card_margin_horizontal">32dp</dimen>
+    <dimen name="card_elevation">5dp</dimen>
+    <dimen name="card_corner_radius">5dp</dimen>
+    <dimen name="card_padding">10dp</dimen>
+    <dimen name="card_margin_top">10dp</dimen>
+    <dimen name="padding_left_rb">5dp</dimen>
     <dimen name="text_question_size">16sp</dimen>
     <dimen name="text_answer_size">13sp</dimen>
 
-    <dimen name="margin_vertical">16dp</dimen>
-    <dimen name="margin_horizontal">32dp</dimen>
+    <!-- For result Toast -->
+    <dimen name="toast_param">8dp</dimen>
+    <dimen name="toast_layout">8dp</dimen>
+    <dimen name="toast_result_margin">5dp</dimen>
+    <dimen name="toast_result_text">24sp</dimen>
+    <dimen name="toast_answer_text">16sp</dimen>
 
-    <dimen name="padding_left_rb">5dp</dimen>
+    <!-- Separate Line -->
+    <dimen name="line_height">1dp</dimen>
+    <dimen name="line_margin">4dp</dimen>
 </resources>

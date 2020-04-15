@@ -2,18 +2,20 @@ package com.ostrov.quizapp;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -25,6 +27,7 @@ import java.util.Calendar;
 import java.util.Random;
 
 public class QuizActivity extends AppCompatActivity {
+    final int countQuestions = 10;
     String name;
     String lastName;
     String birthday;
@@ -34,35 +37,6 @@ public class QuizActivity extends AppCompatActivity {
     LinearLayoutManager llm;
     RVAdapter adapter;
     ArrayList<Question> questions;
-    int countQuestions;
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-        Intent intent = getIntent();
-        name = intent.getStringExtra("NAME");
-        lastName = intent.getStringExtra("LASTNAME");
-        birthday = intent.getStringExtra("BIRTHDAY");
-
-        try {
-            String json = loadJSONFromAsset();
-
-            ObjectMapper objectMapper = new ObjectMapper();
-            quiz = objectMapper.readValue(json, Quiz.class);
-            countQuestions = 10;
-            //countQuestions = quiz.getCountOfTopics();
-
-            rv = findViewById(R.id.rv);
-            llm = new LinearLayoutManager(this);
-            rv.setLayoutManager(llm);
-            initializeAdapter();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -77,25 +51,31 @@ public class QuizActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    /**
-     * Start new test
-     */
-    public void onClickNewTest(MenuItem item) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage(R.string.question_start);
-        builder.setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int id) {
-                for (Question q : questions)
-                    q.clearSelectedAnswer();
-                initializeAdapter();
-            }
-        });
-        builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int id) {
-            }
-        });
-        AlertDialog dialog = builder.create();
-        dialog.show();
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_quiz);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        rv = findViewById(R.id.rv);
+        llm = new LinearLayoutManager(this);
+        rv.setLayoutManager(llm);
+
+        Intent intent = getIntent();
+        name = intent.getStringExtra(getString(R.string.intent_name));
+        lastName = intent.getStringExtra(getString(R.string.intent_last_name));
+        birthday = intent.getStringExtra(getString(R.string.intent_birthday));
+
+        try {
+            String json = loadJSONFromAsset();
+            ObjectMapper objectMapper = new ObjectMapper();
+            quiz = objectMapper.readValue(json, Quiz.class);
+
+            initializeAdapter();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     /**
@@ -104,13 +84,13 @@ public class QuizActivity extends AppCompatActivity {
     private String loadJSONFromAsset() {
         String json = null;
         try {
-            String FILE = "source_file.json";
+            String FILE = getString(R.string.file);
             InputStream is = this.getAssets().open(FILE);
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);
             is.close();
-            json = new String(buffer, "UTF-8");
+            json = new String(buffer, getString(R.string.standard_charsets));
         } catch (IOException ex) {
             ex.printStackTrace();
             return null;
@@ -132,12 +112,12 @@ public class QuizActivity extends AppCompatActivity {
      */
     private ArrayList<Question> generateListOfQuestions(Quiz quiz) {
         ArrayList<Question> newQuestions = new ArrayList<>();
-        for (int i = 0; i < countQuestions; i++) {
-            int qCount = quiz.getTopics().get(i).getCountOfQuestions();
-            //TODO int qRandom = 0;
-            int qRandom = (new Random()).nextInt(qCount);
-            newQuestions.add(quiz.getTopics().get(i).getQuestions().get(qRandom));
-        }
+        if (quiz != null && quiz.getCountOfTopics() >= 10)
+            for (int i = 0; i < countQuestions; i++) {
+                int qCount = quiz.getTopics().get(i).getCountOfQuestions();
+                int qRandom = (new Random()).nextInt(qCount);
+                newQuestions.add(quiz.getTopics().get(i).getQuestions().get(qRandom));
+            }
         return  newQuestions;
     }
 
@@ -152,7 +132,9 @@ public class QuizActivity extends AppCompatActivity {
                 .setMessage(R.string.question_check)
                 .setPositiveButton(R.string.submit, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-                        checkAnswers();
+                        llm.scrollToPosition(0);
+                        adapter.setIsChecked();
+                        gradeAnswers();
                     }
                 })
                 .setNegativeButton(android.R.string.cancel, null)
@@ -175,79 +157,68 @@ public class QuizActivity extends AppCompatActivity {
     }
 
     /**
-     * Check your answers
+     * Grade your answers
      */
-    private void checkAnswers() {
+    private void gradeAnswers() {
         int countCorrectAnswers = 0;
         for (Question q : questions)
             if (q.getCorrectAnswerNumber() == q.getSelectedAnswer())
                 countCorrectAnswers++;
-        llm.scrollToPosition(0);
-        adapter.setIsChecked();
 
         LayoutInflater inflater = getLayoutInflater();
-        View alertLayout = inflater.inflate(R.layout.layout_custom_dialog, null);
+        View toastLayout = inflater.inflate(R.layout.custom_toast_layout,
+                (ViewGroup) findViewById(R.id.toast_layout_root));
 
-        TextView alName = alertLayout.findViewById(R.id.alert_name);
+        TextView alName = toastLayout.findViewById(R.id.toast_name);
         alName.setText(String.format("%s %s", name, lastName));
 
-        TextView alBirthday = alertLayout.findViewById(R.id.alert_birthday);
+        TextView alBirthday = toastLayout.findViewById(R.id.toast_birthday);
         alBirthday.setText(birthday);
 
-        TextView alDate = alertLayout.findViewById(R.id.alert_date);
-        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy hh:mm");
+        TextView tDate = toastLayout.findViewById(R.id.toast_date);
+        SimpleDateFormat formatter = new SimpleDateFormat(getString(R.string.toast_date_format));
         Calendar calendar = Calendar.getInstance();
-        alDate.setText(String.format("%s %s", getString(R.string.alert_date), formatter.format(calendar.getTime())));
+        tDate.setText(getString(R.string.toast_date, formatter.format(calendar.getTime())));
 
 
-        TextView alCorrect= alertLayout.findViewById(R.id.alert_correct);
-        alCorrect.setText(getString(R.string.alert_answered_correctly, countCorrectAnswers));
+        TextView tCorrect = toastLayout.findViewById(R.id.toast_correct);
+        tCorrect.setText(getString(R.string.toast_answered_correctly, countCorrectAnswers));
 
-        TextView alIncorrect= alertLayout.findViewById(R.id.alert_incorrect);
-        alIncorrect.setText(getString(R.string.alert_answered_correctly, (countQuestions - countCorrectAnswers)));
+        TextView tIncorrect = toastLayout.findViewById(R.id.toast_incorrect);
+        tIncorrect.setText(getString(R.string.toast_answered_incorrectly, (countQuestions - countCorrectAnswers)));
 
-        TextView alResult= alertLayout.findViewById(R.id.alert_result);
-        int pass = (int) (countQuestions * 0.8);
-        if (countCorrectAnswers >= pass) {
-            alResult.setText(getString(R.string.alert_pass));
-            alResult.setBackgroundColor(getResources().getColor(R.color.rightColor));
+        TextView tResult = toastLayout.findViewById(R.id.toast_result);
+        if (countCorrectAnswers >= countQuestions * 0.8) {
+            tResult.setText(getString(R.string.toast_pass));
+            ((CardView)toastLayout.findViewById(R.id.toast_layout_root))
+                    .setCardBackgroundColor(getResources().getColor(R.color.toast_pass));
         }
         else {
-            alResult.setText(getString(R.string.alert_fail));
-            alResult.setBackgroundColor(getResources().getColor(R.color.wrongColor));
+            tResult.setText(getString(R.string.toast_fail));
+            ((CardView)toastLayout.findViewById(R.id.toast_layout_root))
+                    .setCardBackgroundColor(getResources().getColor(R.color.toast_fail));
         }
 
-        new AlertDialog.Builder(this)
-                .setView(alertLayout)
-                .setPositiveButton(R.string.ok,null)
-                .show();
+        Toast toast = new Toast(this);
+        toast.setView(toastLayout);
+        toast.setDuration(Toast.LENGTH_LONG);
+        toast.show();
     }
 
-    /** For test */
-    private void checkQuizClass(Quiz quiz) {
-        int topicCount = quiz.getCountOfTopics();
-        Log.i("QUIZ", "Topic count = " + String.valueOf(topicCount));
-
-        int i = 0;
-        for (Topic t : quiz.getTopics()) {
-            i++;
-            String tt = t.getTitle();
-            int tc = t.getCountOfQuestions();
-            Log.i("FULL_INFO" + String.valueOf(i), "TOPIC: Title = " + tt + ", Count of questions = " + String.valueOf(tc));
-
-            for (Question q : t.getQuestions()) {
-                String qt = t.getTitle();
-                String qa = q.getCorrectAnswer();
-                int qan = q.getCorrectAnswerNumber();
-                int qc = q.getCountOfAnswers();
-                Log.i("FULL_INFO", "QUESTION: Title = " + qt +
-                        ", Answer = " + String.valueOf(qa) + "(" + String.valueOf(qan) + ")" +
-                        ", Count = " + String.valueOf(qc));
-                for (String a : q.getAnswers()) {
-                    Log.i("FULL_INFO", "QUESTION: Answer = " + a);
-                }
+    /**
+     * Start new test
+     */
+    public void onClickNewTest(MenuItem item) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage(R.string.question_start);
+        builder.setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+                for (Question q : questions)
+                    q.clearSelectedAnswer();
+                initializeAdapter();
             }
-        }
-        Log.i("FULL_INFO", "FINISH");
+        });
+        builder.setNegativeButton(R.string.cancel, null);
+        builder.create().show();
     }
 }

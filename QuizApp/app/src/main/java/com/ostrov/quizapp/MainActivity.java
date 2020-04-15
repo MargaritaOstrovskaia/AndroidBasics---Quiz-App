@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
     }
 
     /**
@@ -39,116 +38,94 @@ public class MainActivity extends AppCompatActivity {
             .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
                     Intent intent = new Intent(MainActivity.this, QuizActivity.class);
-                    intent.putExtra("NAME", name);
-                    intent.putExtra("LASTNAME", lastName);
-                    intent.putExtra("BIRTHDAY", birthday);
+                    intent.putExtra(getString(R.string.intent_name), name);
+                    intent.putExtra(getString(R.string.intent_last_name), lastName);
+                    intent.putExtra(getString(R.string.intent_birthday), birthday);
                     startActivity(intent);
                 }
             })
             .setNegativeButton(R.string.cancel, null)
             .show();
         }
-        else
-            Toast.makeText(this, R.string.main_alert, Toast.LENGTH_LONG).show();
     }
 
     /**
      * Check what you fill all information
      */
     private boolean checkCheckBoxes() {
-        boolean result = true;
-
-        EditText editTextName = findViewById(R.id.editTextName);
-        name = editTextName.getText().toString().trim();
-        if (!isName(name)) {
-            editTextName.setError(getString(R.string.invalid_name));
-            result = false;
-        }
-
-        EditText editTextLastName = findViewById(R.id.editTextLastName);
-        lastName = editTextLastName.getText().toString().trim();
-        if (!isName(lastName)) {
-            editTextLastName.setError(getString(R.string.invalid_last_name));
-            result = false;
-        }
-
-        EditText editTextBirthday = findViewById(R.id.editTextBirthday);
-        birthday = editTextBirthday.getText().toString().trim();
-        if (!isBirthday(birthday)) {
-            editTextBirthday.setError(getString(R.string.invalid_birthday));
-            result = false;
-        }
-
-        CheckBox cb = findViewById(R.id.checkBox1);
-        if (!cb.isChecked()) {
-            cb.setTextColor(Color.RED);
-            result = false;
-        }
-        else
-            cb.setTextColor(Color.BLACK);
-
-        cb = findViewById(R.id.checkBox2);
-        if (!cb.isChecked()) {
-            cb.setTextColor(Color.RED);
-            result = false;
-        }
-        else
-            cb.setTextColor(Color.BLACK);
-
-        cb = findViewById(R.id.checkBox3);
-        if (!cb.isChecked()) {
-            cb.setTextColor(Color.RED);
-            result = false;
-        }
-        else
-            cb.setTextColor(Color.BLACK);
-
-        cb = findViewById(R.id.checkBox4);
-        if (!cb.isChecked()) {
-            cb.setTextColor(Color.RED);
-            result = false;
-        }
-        else
-            cb.setTextColor(Color.BLACK);
-
-        cb = findViewById(R.id.checkBox5);
-        if (!cb.isChecked()) {
-            cb.setTextColor(Color.RED);
-            result = false;
-        }
-        else
-            cb.setTextColor(Color.BLACK);
-
-        cb = findViewById(R.id.checkBox6);
-        if (!cb.isChecked()) {
-            cb.setTextColor(Color.RED);
-            result = false;
-        }
-        else
-            cb.setTextColor(Color.BLACK);
+        boolean result = isBirthday();
+        result = verifyFirstName(result);
+        result = verifyLastName(result);
+        result = verifyCheckBox(R.id.checkBox1, result);
+        result = verifyCheckBox(R.id.checkBox2, result);
+        result = verifyCheckBox(R.id.checkBox3, result);
+        result = verifyCheckBox(R.id.checkBox4, result);
+        result = verifyCheckBox(R.id.checkBox5, result);
+        result = verifyCheckBox(R.id.checkBox6, result);
 
         return result;
     }
 
     /**
-     * Verify name
+     * First name verification
+     */
+    private boolean verifyFirstName(boolean result) {
+        EditText editTextName = findViewById(R.id.editTextName);
+        name = editTextName.getText().toString().trim();
+        if (isName(name))
+            return result;
+        editTextName.setError(getString(R.string.invalid_name));
+        return false;
+    }
+
+    /**
+     * Last name verification
+     */
+    private boolean verifyLastName(boolean result) {
+        EditText editTextName = findViewById(R.id.editTextLastName);
+        lastName = editTextName.getText().toString().trim();
+        if (isName(lastName))
+            return result;
+        editTextName.setError(getString(R.string.invalid_name));
+        return false;
+    }
+
+    /**
+     * Name verification
      */
     private boolean isName(String str) {
         return ((str != null)
                 && (!str.equals(""))
-                && (str.matches("^[a-zA-Z]*$")));
+                && (str.matches(getString(R.string.name_matches))));
     }
 
     /**
-     * Verify birthday
+     * CheckBox verification
      */
-    private boolean isBirthday(String b ) {
+    private boolean verifyCheckBox(int id, boolean result) {
+        CheckBox cb = findViewById(id);
+        if (!cb.isChecked()) {
+            cb.setTextColor(getResources().getColor(R.color.wrong_text_color));
+            return false;
+        }
+        cb.setTextColor(getResources().getColor(R.color.black_text_color));
+        return result;
+    }
+
+    /**
+     * Birthday verification
+     */
+    private boolean isBirthday() {
+        EditText editTextBirthday = findViewById(R.id.editTextBirthday);
+        birthday = editTextBirthday.getText().toString().trim();
+
+        boolean result = true;
         try {
-            SimpleDateFormat format = new SimpleDateFormat(getString(R.string.format));
+            SimpleDateFormat format = new SimpleDateFormat(getString(R.string.date_format));
             format.setLenient(false);
 
             Calendar calBirthday = Calendar.getInstance();
-            calBirthday.setTime(format.parse(b));
+            calBirthday.setTime(format.parse(birthday));
 
             Calendar calToday = Calendar.getInstance();
             calToday.setTime(new Date());
@@ -161,13 +138,13 @@ public class MainActivity extends AppCompatActivity {
             }
 
             if (age < 16 || age > 90)
-                return false;
-
+                result = false;
         } catch (ParseException e) {
-            //e.printStackTrace();
-            return false;
+            result = false;
         }
+        if (!result)
+            editTextBirthday.setError(getString(R.string.invalid_birthday));
 
-        return true;
+        return result;
     }
 }

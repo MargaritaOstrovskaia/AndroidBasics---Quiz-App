@@ -1,8 +1,6 @@
 <resources>
-
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -13,24 +11,33 @@
     <style name="MainActivityViews">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:padding">@dimen/padding_items</item>
+        <item name="android:padding">@dimen/main_padding_items</item>
     </style>
 
-    <!-- Attributes of RadioButtons in QuizActivity (inside CardView). -->
+    <!-- Attributes of RadioButtons in CardView. -->
     <style name="RadioButtonStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:paddingLeft">@dimen/padding_left_rb</item>
         <item name="android:textSize">@dimen/text_answer_size</item>
-        <item name="android:textColor">@color/answerTextColor</item>
+        <item name="android:textColor">@color/answer_text_color</item>
     </style>
 
-    <style name="DialogResult">
+    <!-- Attributes of result Toast -->
+    <style name="Result">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_margin">5dp</item>
-        <item name="android:textColor">@android:color/black</item>
-        <item name="android:textSize">@dimen/text_answer_size</item>
+        <item name="android:layout_margin">@dimen/toast_result_margin</item>
+        <item name="android:textColor">@color/black_text_color</item>
+        <item name="android:textSize">@dimen/toast_answer_text</item>
     </style>
 
+    <!-- Separate line style -->
+    <style name="SeparateLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/line_height</item>
+        <item name="android:layout_marginTop">@dimen/line_margin</item>
+        <item name="android:layout_marginBottom">@dimen/line_margin</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
 </resources>

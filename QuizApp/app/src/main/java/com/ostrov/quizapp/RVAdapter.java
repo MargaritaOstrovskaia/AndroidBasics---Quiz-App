@@ -39,7 +39,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.QuestionViewHolder
     @NonNull
     @Override
     public QuestionViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_quiz_rv, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_card, parent, false);
         return new QuestionViewHolder(view);
     }
 
@@ -68,9 +68,9 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.QuestionViewHolder
 
         // set new data
         if (position % 2 == 0)
-            holder.cv.setCardBackgroundColor(context.getResources().getColor(R.color.cardBackgroundColor1));
+            holder.cv.setCardBackgroundColor(context.getResources().getColor(R.color.card_background_color_1));
         else
-            holder.cv.setCardBackgroundColor(context.getResources().getColor(R.color.cardBackgroundColor2));
+            holder.cv.setCardBackgroundColor(context.getResources().getColor(R.color.card_background_color_2));
 
         Question question = questions.get(position);
         String q = context.getString(R.string.q, position + 1, question.getQuestion());
@@ -102,8 +102,8 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.QuestionViewHolder
 
         if (isChecked) {
             if (question.getCorrectAnswerNumber() != question.getSelectedAnswer())
-                setColor(holder, question.getSelectedAnswer(), context.getResources().getColor(R.color.wrongColor));
-            setColor(holder, question.getCorrectAnswerNumber(), context.getResources().getColor(R.color.rightColor));
+                setColor(holder, question.getSelectedAnswer(), context.getResources().getColor(R.color.wrong_color));
+            setColor(holder, question.getCorrectAnswerNumber(), context.getResources().getColor(R.color.right_color));
             holder.rg.setEnabled(false);
         }
 

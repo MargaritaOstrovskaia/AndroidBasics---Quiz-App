@@ -1,0 +1,59 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toast_layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/toast_param"
+    app:cardElevation="@dimen/toast_param"
+    app:contentPadding="@dimen/toast_param">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/toast_layout" >
+
+        <TextView
+            android:id="@+id/toast_name"
+            style="@style/Result"
+            android:text=""
+            android:gravity="end"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/toast_birthday"
+            style="@style/Result"
+            android:gravity="end"
+            android:text=""
+            android:textStyle="bold" />
+
+        <View style="@style/SeparateLine" />
+
+        <TextView
+            android:id="@+id/toast_date"
+            style="@style/Result"
+            android:text="@string/toast_date" />
+
+        <TextView
+            android:id="@+id/toast_correct"
+            style="@style/Result"
+            android:text="@string/toast_answered_correctly" />
+
+        <TextView
+            android:id="@+id/toast_incorrect"
+            style="@style/Result"
+            android:text="@string/toast_answered_incorrectly" />
+
+        <TextView
+            android:id="@+id/toast_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/toast_result_margin"
+            android:gravity="center"
+            android:text="@string/toast_fail"
+            android:textSize="@dimen/toast_result_text"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

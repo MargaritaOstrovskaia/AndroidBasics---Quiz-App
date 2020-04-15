@@ -5,33 +5,33 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_centerHorizontal="true"
-    android:layout_marginTop="@dimen/margin_vertical"
-    android:layout_marginBottom="@dimen/margin_vertical"
-    android:layout_marginRight="@dimen/margin_horizontal"
-    android:layout_marginLeft="@dimen/margin_horizontal"
-    app:cardBackgroundColor="@color/cardBackgroundColor1"
-    app:cardElevation="5dp"
-    app:cardCornerRadius="5dp">
+    android:layout_marginTop="@dimen/card_margin_vertical"
+    android:layout_marginBottom="@dimen/card_margin_vertical"
+    android:layout_marginRight="@dimen/card_margin_horizontal"
+    android:layout_marginLeft="@dimen/card_margin_horizontal"
+    app:cardBackgroundColor="@color/card_background_color_1"
+    app:cardElevation="@dimen/card_elevation"
+    app:cardCornerRadius="@dimen/card_corner_radius">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="12dp" >
+        android:padding="@dimen/card_padding" >
 
         <TextView
             android:id="@+id/question_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/q"
-            android:textColor="@android:color/black"
+            android:textColor="@color/black_text_color"
             android:textSize="@dimen/text_question_size" />
 
         <ImageView
             android:id="@+id/image_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/card_margin_top"
             android:layout_gravity="center_horizontal"
             android:visibility="gone" />
 
@@ -39,25 +39,21 @@
             android:id="@+id/rg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp" >
+            android:layout_marginTop="@dimen/card_margin_top" >
 
             <RadioButton
                 android:id="@+id/answer_a_button"
                 style="@style/RadioButtonStyle"
                 android:text="@string/a" />
-
             <RadioButton
                 android:id="@+id/answer_b_button"
                 style="@style/RadioButtonStyle"
                 android:text="@string/b" />
-
             <RadioButton
                 android:id="@+id/answer_c_button"
                 style="@style/RadioButtonStyle"
                 android:text="@string/c" />
 
         </RadioGroup>
-
     </LinearLayout>
-
 </androidx.cardview.widget.CardView>

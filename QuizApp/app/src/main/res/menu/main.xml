@@ -4,8 +4,8 @@
 
     <item
         android:id="@+id/action_start"
-        android:icon="@drawable/ic_start"
-        android:title="@string/btn_check"
+        android:icon="@drawable/ic_action_start_test"
+        android:title="@string/btn_new_test"
         app:showAsAction="always"
         android:onClick="onClickNewTest"/>
 

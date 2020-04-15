@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="test">#66BB6A</color>
-
     <color name="colorPrimary">#5D4F73</color>
     <color name="colorPrimaryDark">#4E295B</color>
     <color name="colorAccent">#5D4F73</color>
 
-    <color name="rightColor">#b36b8e23</color>
-    <color name="wrongColor">#b3971b10</color>
-    <color name="answerTextColor">#6B617A</color>
-    <color name="cardBackgroundColor1">#FFF0EB</color>
-    <color name="cardBackgroundColor2">#EBF6FF</color>
-    <color name="alertResult">#FF8573</color>
+    <!-- For MainActivity verification -->
+    <color name="wrong_text_color">#FF0000</color>
+    <color name="black_text_color">#000000</color>
+
+    <!-- For CardView -->
+    <color name="answer_text_color">#6B617A</color>
+    <color name="right_color">#b36b8e23</color>
+    <color name="wrong_color">#b3971b10</color>
+    <color name="card_background_color_1">#FFF0EB</color>
+    <color name="card_background_color_2">#EBF6FF</color>
+
+    <!-- For Toast -->
+    <color name="toast_pass">#5BB07F</color>
+    <color name="toast_fail">#E37D7D</color>
 </resources>
