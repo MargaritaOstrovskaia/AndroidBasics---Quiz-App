@@ -5,6 +5,8 @@ Project designed from practice sets from Udacity Android Developers course **"An
 The goal is to create Android educational app that quizzes a user about a certain topic of your choice.
 <br>I chose **DMV Motocycler test**. App shows random ten questions from `JSON file`.</br>
 
+[Documentation Wiki here.](https://github.com/MargaritaOstrovskaia/AndroidBasics---Quiz-App/wiki)
+
 <img src="https://github.com/MargaritaOstrovskaia/AndroidBasics---Quiz-App/blob/master/screenshots/screen_main_1.png" height="30%" width="30%"> <img src="https://github.com/MargaritaOstrovskaia/AndroidBasics---Quiz-App/blob/master/screenshots/screen_main_2.png" height="30%" width="30%"> <img src="https://github.com/MargaritaOstrovskaia/AndroidBasics---Quiz-App/blob/master/screenshots/screen_main_3.png" height="30%" width="30%">
 
 
