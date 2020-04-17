@@ -9,11 +9,11 @@ The goal is to create Android educational app that quizzes a user about a certai
 
 
 
-<img src="https://github.com/MargaritaOstrovskaia/AndroidBasics---Quiz-App/blob/master/screenshots/screen_test_0.png " height="30%" width="30%"> <img src="https://github.com/MargaritaOstrovskaia/AndroidBasics---Quiz-App/blob/master/screenshots/screen_test_1.png" height="30%" width="30%"> <img src="https://github.com/MargaritaOstrovskaia/AndroidBasics---Quiz-App/blob/master/screenshots/screen_check_test.png" height="30%" width="30%">
+<img src="https://github.com/MargaritaOstrovskaia/AndroidBasics---Quiz-App/blob/master/screenshots/screen_test_0.png " height="30%" width="30%"> <img src="https://github.com/MargaritaOstrovskaia/AndroidBasics---Quiz-App/blob/master/screenshots/screen_test_1.png" height="30%" width="30%"> <img src="https://github.com/MargaritaOstrovskaia/AndroidBasics---Quiz-App/blob/master/screenshots/screen_test_2.png" height="30%" width="30%">
 
 
 
-<img src="https://github.com/MargaritaOstrovskaia/AndroidBasics---Quiz-App/blob/master/screenshots/screen_test_2.png" height="30%" width="30%"> <img src="https://github.com/MargaritaOstrovskaia/AndroidBasics---Quiz-App/blob/master/screenshots/screen_result.png" height="30%" width="30%"> <img src="https://github.com/MargaritaOstrovskaia/AndroidBasics---Quiz-App/blob/master/screenshots/screen_dialog_new_test.png" height="30%" width="30%">
+<img src="https://github.com/MargaritaOstrovskaia/AndroidBasics---Quiz-App/blob/master/screenshots/screen_result.png" height="30%" width="30%"> <img src="https://github.com/MargaritaOstrovskaia/AndroidBasics---Quiz-App/blob/master/screenshots/screen_check_test.png" height="30%" width="30%"> <img src="https://github.com/MargaritaOstrovskaia/AndroidBasics---Quiz-App/blob/master/screenshots/screen_dialog_new_test.png" height="30%" width="30%">
 
 ### Evaluation rule details:
 - App contains 4 - 10 questions, including at least one check box, one radio button, and one text entry.
